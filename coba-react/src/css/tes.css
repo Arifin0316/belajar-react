@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+button{
+    background-color: aqua;
+    color: black;
+    gap: 1rem;
+    width: 5rem;
+    height: 3rem;
+    margin: 1rem;
+}
+img{
+    width: 150px;
+    height: 140px;
+}

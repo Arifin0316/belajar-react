@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 5rem;
+  background-color: aqua;
+}
+header a{
+  font-size: 2rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;  
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  
+}
+nav a{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+}
+
+section {
+  padding: 2rem 5rem;
+}
+section div{
+  margin-top: 2rem;
+}
+
+.btn button{
+  padding: 1rem;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+div article{
+  max-width: 50%;
+}
+
+.konten {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.todoList form {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todoList select,
+.todoList .serch,
+.todoList button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.todoList .serch {
+  flex: 1;
+}
+
+.todoList button {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.todoList button:hover {
+  background-color: #218838;
+}
+
+.List ul {
+  list-style: none;
+  padding: 0;
+}
+
+.List li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.List li p {
+  margin: 0;
+  flex: 1;
+  padding: 0 10px;
+}
+
+.List li button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.List li button:hover {
+  background-color: #c82333;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.action select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.action button {
+  background-color: #ffc107;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action button:hover {
+  background-color: #e0a800;
+}

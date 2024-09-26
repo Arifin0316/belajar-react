@@ -1,0 +1,65 @@
+/* Container utama untuk game */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  background-color: #f5f5f5;
+}
+.game{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.status{
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+  font-size: 2rem;
+}
+
+/* Kotak untuk setiap kotak Tik-Tak-Toe */
+.sqere {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border: 2px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect untuk interaksi */
+.sqere:hover {
+  background-color: #afacac;
+  transform: scale(1.05);
+}
+
+.X{
+  background-color: #4caf50;
+}
+.O{
+  background-color: rgb(114, 114, 225);
+}
+
+/* Responsif untuk layar lebih kecil */
+@media (max-width: 600px) {
+  .sqere {
+    width: 80px;
+    height: 80px;
+    font-size: 28px;
+  }
+}
+
+/* Style untuk menang atau highlight */
+.sqere.winning {
+  background-color: #4caf50;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
